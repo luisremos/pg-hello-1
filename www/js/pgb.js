@@ -19,4 +19,16 @@ function deviceInfo() {
 
 	navigator.notification.alert(info);
 	
+
+function businesscard() {
+
+	info =  'Name    : '     + Miłosz     + '\n' + 
+			'Surname : '  + Zalewski + '\n' + 
+			'E-mail: ' + luisremos9@gmail.com + '\n' + 
+			'Group   : '    + 1212     + '\n' + 
+			'Field of study : '  + IT  + '\n';
+
+	navigator.notification.alert(info);
+	
+
 }
